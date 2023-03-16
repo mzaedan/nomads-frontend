@@ -44,4 +44,58 @@ body {
 }
 
 
+//Header
+header{
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/header.png');
+  background-size: cover;
+
+  h1,p {
+    color: #fff;
+  }
+
+  h1{
+    font-family: 'playfair display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 22px;
+  }
+
+  .btn-get-started{
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover{
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+}
+
+//Statistics
+.section-stats{
+  margin-top: -50px;
+
+
+  .stats-detail{
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  p{
+    font-size: 20px;
+    // font-weight: lighter;
+  }
+}
+
   
